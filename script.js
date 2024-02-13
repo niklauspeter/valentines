@@ -17,7 +17,7 @@ function handleNo() {
         
 
         congratulationsText.innerHTML = "Eh, eh, Eh ... Makosa!";
-        centeredImage.innerHTML = "<img src='therearenorightorwrong.jpg' alt='New Image'>";
+        centeredImage.innerHTML = "<img src='img/therearenorightorwrong.jpg' alt='New Image'>";
         noButton.style.marginLeft = "-200px";
 
         noButtonPressed = true;
@@ -47,19 +47,19 @@ function handleNo() {
         switch (randomDirection) {
             case "left":
                 noButton.style.marginLeft = "-400px";
-                centeredImage.innerHTML = "<img src='trumpwronganswer.jpg' alt='New Image'>";
+                centeredImage.innerHTML = "<img src='img/trumpwronganswer.jpg' alt='New Image'>";
                 break;
             case "right":
                 noButton.style.marginLeft = "200px";
-                centeredImage.innerHTML = "<img src='trumpwronganswer.jpg' alt='New Image'>";
+                centeredImage.innerHTML = "<img src='img/trumpwronganswer.jpg' alt='New Image'>";
                 break;
             case "up":
                 noButton.style.marginTop = "-100px";
-                centeredImage.innerHTML = "<img src='letstrythisagain.jpg' alt='New Image'>";
+                centeredImage.innerHTML = "<img src='img/letstrythisagain.jpg' alt='New Image'>";
                 break;
             case "down":
                 noButton.style.marginTop = "50px";
-                centeredImage.innerHTML = "<img src='trumpwronganswer.jpg' alt='New Image'>";
+                centeredImage.innerHTML = "<img src='img/trumpwronganswer.jpg' alt='New Image'>";
                 break;
         }
 
