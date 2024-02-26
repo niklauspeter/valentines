@@ -16,7 +16,7 @@ function handleNo() {
         
         
 
-        congratulationsText.innerHTML = "Eh, eh, Eh ... Makosa!";
+        congratulationsText.innerHTML = "Eh, eh, Eh ... Error <3!";
         centeredImage.innerHTML = "<img src='img/therearenorightorwrong.jpg' alt='New Image'>";
         noButton.style.marginLeft = "-200px";
 
